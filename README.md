@@ -44,7 +44,8 @@ Deploy Temporal with Docker Compose (including PostgreSQL & Elasticsearch) in mi
    
 2. Clone the repository and run the containers
 ```sh
-git clone https://github.com/temporalio/docker-compose.git
+git clone https://github.com/temporalio/docker-compose.git<img width="1487" alt="Screenshot 2025-03-30 at 10 07 20 PM" src="https://github.com/user-attachments/assets/d61e63fa-8a36-4555-bcd9-a374df087ebf" />
+
 cd docker-compose
 docker compose up
 ```
@@ -53,4 +54,5 @@ docker compose up
 ```sh
 docker ps 
 ```
+
 
