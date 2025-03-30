@@ -42,3 +42,9 @@ Deploy Temporal with Docker Compose (including PostgreSQL & Elasticsearch) in mi
 
 1. Install Docker ([Installation Guide](https://docs.docker.com/get-docker/))
    
+2. Clone the repository
+```sh
+git clone https://github.com/temporalio/docker-compose.git
+cd docker-compose
+docker compose up
+```
