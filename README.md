@@ -56,7 +56,8 @@ docker ps
 
 🔗 Open http://[public-ip-of-server]:8080 in your browser.
 
-![Uploading Screenshot 2025-03-30 at 10.55.56 PM.png…]()
+<img width="1572" alt="Screenshot 2025-03-30 at 10 57 27 PM" src="https://github.com/user-attachments/assets/22546aba-4da2-4ef3-bda5-03a940e815dc" />
+
 
 
 
