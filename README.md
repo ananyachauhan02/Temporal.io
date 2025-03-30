@@ -14,6 +14,7 @@ Deploy Temporal with Docker Compose (including PostgreSQL & Elasticsearch) in mi
 
 ### 📌 Features:
 ✅ Temporal Server & UI 🖥️
+
 ✅ PostgreSQL as Persistence DB 🛢️
 ✅ Elasticsearch for Search 🔎
 ✅ Simple Setup with Docker Compose 🚀
