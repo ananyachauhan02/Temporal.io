@@ -49,10 +49,14 @@ git clone https://github.com/temporalio/docker-compose.git<img width="1487" alt=
 cd docker-compose
 docker compose up
 ```
-
 3. View Running Containers
 ```sh
 docker ps 
 ```
+<img width="1487" alt="Screenshot 2025-03-30 at 10 07 20 PM" src="https://github.com/user-attachments/assets/0ac5d49e-2b52-4f34-b621-501f1c1e99a7" />
+
+
+
+
 
 
