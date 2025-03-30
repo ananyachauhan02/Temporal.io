@@ -192,6 +192,6 @@ sudo systemctl start prometheus
 systemctl status prometheus
 ```
 
-
-
-
+4. 📊 Verify Deployment
+🖥️ Access prometheus UI
+🔗 Open http://[public-ip-of-server]:9090 in your browser.
