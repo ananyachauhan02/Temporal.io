@@ -224,6 +224,7 @@ systemctl enable grafana-server
 ```
 
 6. Access Grafana UI
+   
 🔗 Open http://[public-ip-of-server]:3000 in your browser.
 
    
