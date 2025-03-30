@@ -56,7 +56,7 @@ docker ps
 ## 📊 Verify Deployment
 🖥️ Access Temporal UI
 
-🔗 Open http://public-ip-of-server:8080 in your browser.
+🔗 Open http://[public-ip-of-server]:8080 in your browser.
 
 
 
