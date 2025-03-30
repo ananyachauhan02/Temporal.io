@@ -208,3 +208,30 @@ systemctl status prometheus
 5. 🖥️ Access prometheus UI
 
 🔗 Open http://[public-ip-of-server]:9090 in your browser.
+
+
+
+
+6. Install Grafana using following commands
+```sh
+wget -q -O - https://packages.grafana.com/gpg.key | sudo apt-key add -
+sudo add-apt-repository "deb https://packages.grafana.com/oss/deb stable main"
+apt update
+apt install grafana
+systemctl start grafana-server
+systemctl status grafana-server
+systemctl enable grafana-server
+```
+
+6. Access Grafana UI
+🔗 Open http://[public-ip-of-server]:3000 in your browser.
+
+   
+
+
+
+
+
+
+
+
