@@ -12,7 +12,7 @@ Temporal provides stateful execution, meaning it maintains the execution state o
 
 Deploy Temporal with Docker Compose (including PostgreSQL & Elasticsearch) in minutes.
 
-### 📌 Features:
+## 📌 Features:
 ✅ Temporal Server & UI 🖥️
 
 ✅ PostgreSQL as Persistence DB 🛢️
