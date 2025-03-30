@@ -22,6 +22,9 @@ Deploy Temporal with Docker Compose (including PostgreSQL & Elasticsearch) in mi
 ✅ Simple Setup with Docker Compose 🚀
 
 
+
+
+
 ## 📜 Table of Contents
 🚀 Quick Start
 
