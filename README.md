@@ -167,6 +167,22 @@ mv prometheus /usr/local/bin/
 chown prometheus:prometheus /usr/local/bin/prometheus
 ```
 
+2. Create a systemd service of prometheus
+```sh
+sudo nano /etc/systemd/system/prometheus.service
+
+# add the following configuration in the file
+[Unit]
+Description=Prometheus Monitoring System
+After=network.target
+
+[Service]
+User=prometheus
+ExecStart=/usr/local/bin/prometheus --config.file=/etc/prometheus/prometheus.yml --storage.tsdb.path=/var/lib/prometheus
+
+[Install]
+WantedBy=multi-user.target
+```
 
 
 
