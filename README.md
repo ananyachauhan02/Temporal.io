@@ -30,9 +30,7 @@ Deploy Temporal with Docker Compose (including PostgreSQL & Elasticsearch) in mi
 
 🔧 Configuration
 
-💡 Troubleshooting
 
-📜 License
 
 ## 🚀 Quick Start
 
@@ -57,6 +55,9 @@ docker ps
 🖥️ Access Temporal UI
 
 🔗 Open http://[public-ip-of-server]:8080 in your browser.
+
+![Uploading Screenshot 2025-03-30 at 10.55.56 PM.png…]()
+
 
 
 
@@ -210,6 +211,7 @@ systemctl status prometheus
 🔗 Open http://[public-ip-of-server]:9090 in your browser.
 
 
+<img width="1572" alt="Screenshot 2025-03-30 at 10 55 04 PM" src="https://github.com/user-attachments/assets/e119af2b-61fa-42e0-8ea8-b494a4a75be6" />
 
 
 6. Install Grafana using following commands
@@ -228,7 +230,7 @@ systemctl enable grafana-server
 🔗 Open http://[public-ip-of-server]:3000 in your browser.
 
    
-
+<img width="1528" alt="Screenshot 2025-03-30 at 10 53 41 PM" src="https://github.com/user-attachments/assets/c62ccc56-38f4-442d-aa6b-dfb5b63319b9" />
 
 
 
