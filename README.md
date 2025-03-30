@@ -184,7 +184,19 @@ ExecStart=/usr/local/bin/prometheus --config.file=/etc/prometheus/prometheus.yml
 WantedBy=multi-user.target
 ```
 
-3. To start and enable the service and check status of service
+
+3. Make the following changes in /docker-compose/dynamicconfig/docker.yaml
+```sh
+metrics:
+  tags:
+    env: "prod"
+  prometheus:
+    listen_address: "0.0.0.0:8000"
+
+
+```
+
+4. To start and enable the service and check status of service
 ```sh
 sudo systemctl daemon-reload
 sudo systemctl enable prometheus
@@ -192,6 +204,7 @@ sudo systemctl start prometheus
 systemctl status prometheus
 ```
 
-4. 🖥️ Access prometheus UI
+
+5. 🖥️ Access prometheus UI
 
 🔗 Open http://[public-ip-of-server]:9090 in your browser.
