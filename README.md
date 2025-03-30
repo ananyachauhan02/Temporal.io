@@ -184,6 +184,14 @@ ExecStart=/usr/local/bin/prometheus --config.file=/etc/prometheus/prometheus.yml
 WantedBy=multi-user.target
 ```
 
+3. To start and enable the service and check status of service
+```sh
+sudo systemctl daemon-reload
+sudo systemctl enable prometheus
+sudo systemctl start prometheus
+systemctl status prometheus
+```
+
 
 
 
