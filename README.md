@@ -149,7 +149,23 @@ networks:
 ```
 
 
+# 📊 Temporal.io Logging and Monitoring
 
+1. Install Prometheus using following commands:
+```sh
+sudo useradd --no-create-home --shell /bin/false prometheus
+mkdir /etc/prometheus
+mkdir /var/lib/prometheus
+chown prometheus:prometheus /var/lib/prometheus
+wget https://github.com/prometheus/prometheus/releases/download/v2.46.0/prometheus-2.46.0.linux-amd64.tar.gz
+tar -xvf prometheus-2.46.0.linux-amd64.tar.gz
+cd prometheus-2.46.0.linux-amd64
+sudo mv console* /etc/prometheus
+sudo mv prometheus.yml /etc/prometheus
+sudo chown -R prometheus:prometheus /etc/prometheus
+mv prometheus /usr/local/bin/
+chown prometheus:prometheus /usr/local/bin/prometheus
+```
 
 
 
