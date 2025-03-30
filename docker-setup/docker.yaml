@@ -1,0 +1,5 @@
+metrics:
+  tags:
+    env: "prod"
+  prometheus:
+    listen_address: "0.0.0.0:8000"
