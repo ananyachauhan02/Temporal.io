@@ -235,7 +235,7 @@ systemctl enable grafana-server
 
 
 
-# Congratssss your setup is readyyy!!! 🥳
+# Congratssss your setup is readyyy!!! 
 
 
 
